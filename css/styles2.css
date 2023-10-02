@@ -1,0 +1,73 @@
+/* Common Styles */
+.orange-color {
+    color: #FFA400;
+}
+
+/* About Section Styling */
+#about {
+    background-color: #003e3d;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h1 {
+    font-size: 2.5rem;
+    color: #FFA400;
+}
+
+#about p.orange-color {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+#about p:not(.orange-color) {
+    font-size: 1.2rem;
+    color: #777;
+    margin-top: 20px;
+}
+
+/* Feature Section Styling */
+#details {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature i {
+    font-size: 3rem;
+    color: #FFA400;
+}
+
+.feature h3 {
+    font-size: 1.8rem;
+    margin-top: 10px;
+    color: #333;
+}
+
+.feature p {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #about h1 {
+        font-size: 2rem;
+    }
+
+    .feature i {
+        font-size: 2.5rem;
+    }
+
+    .feature h3 {
+        font-size: 1.5rem;
+    }
+
+    .feature p {
+        font-size: 1.1rem;
+    }
+}
